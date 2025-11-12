@@ -91,12 +91,7 @@
 
         <!-- Newsletter -->
         <div class="newsletter">
-            <h3>Subscribe to our Newsletter</h3>
-            <p>Get the latest articles and news delivered to your inbox every week. No spam, ever.</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Your email address" required>
-                <button type="submit">Subscribe</button>
-            </form>
+            <livewire:comments :model="$post"/>
         </div>
     </div>
 
